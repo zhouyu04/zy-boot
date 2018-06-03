@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zzyy.zyboot.mapper.RelationAttachmentMapper">
+  <resultMap id="BaseResultMap" type="com.zzyy.zyboot.entity.RelationAttachment">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="fileId" jdbcType="BIGINT" property="fileid" />
+    <result column="caseId" jdbcType="VARCHAR" property="caseid" />
+    <result column="fileName" jdbcType="VARCHAR" property="filename" />
+    <result column="filePath" jdbcType="VARCHAR" property="filepath" />
+    <result column="fileType" jdbcType="VARCHAR" property="filetype" />
+    <result column="fileSize" jdbcType="INTEGER" property="filesize" />
+    <result column="date_created" jdbcType="TIMESTAMP" property="dateCreated" />
+  </resultMap>
+</mapper>

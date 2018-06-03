@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zzyy.zyboot.mapper.RsAccountMapper">
+  <resultMap id="BaseResultMap" type="com.zzyy.zyboot.entity.RsAccount">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="balance" jdbcType="DECIMAL" property="balance" />
+    <result column="accumulat_increase" jdbcType="DECIMAL" property="accumulatIncrease" />
+    <result column="accumulat_decrease" jdbcType="DECIMAL" property="accumulatDecrease" />
+    <result column="create_date" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="modify_date" jdbcType="TIMESTAMP" property="modifyDate" />
+    <result column="operater" jdbcType="VARCHAR" property="operater" />
+    <result column="last_balance" jdbcType="DECIMAL" property="lastBalance" />
+    <result column="rs_name" jdbcType="VARCHAR" property="rsName" />
+    <result column="re_num" jdbcType="VARCHAR" property="reNum" />
+    <result column="version" jdbcType="INTEGER" property="version" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+    <result column="spell" jdbcType="VARCHAR" property="spell" />
+    <result column="first_spell" jdbcType="VARCHAR" property="firstSpell" />
+    <result column="personMark" jdbcType="VARCHAR" property="personmark" />
+    <result column="status" jdbcType="BIT" property="status" />
+    <result column="operateAmount" jdbcType="DECIMAL" property="operateamount" />
+  </resultMap>
+</mapper>

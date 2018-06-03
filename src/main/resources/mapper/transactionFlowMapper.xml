@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zzyy.zyboot.mapper.TransactionFlowMapper">
+  <resultMap id="BaseResultMap" type="com.zzyy.zyboot.entity.TransactionFlow">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="rs_name" jdbcType="VARCHAR" property="rsName" />
+    <result column="rs_num" jdbcType="INTEGER" property="rsNum" />
+    <result column="operateAmount" jdbcType="DECIMAL" property="operateamount" />
+    <result column="date_create" jdbcType="TIMESTAMP" property="dateCreate" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+    <result column="status" jdbcType="BIT" property="status" />
+  </resultMap>
+</mapper>
